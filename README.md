@@ -1,3 +1,19 @@
+due to shenanigans with licences the gem  mimemagic (which Lamby Rails app http://serverless-ruby.org/ needs) we need to do
+
+```
+gem 'mimemagic', github: 'serverless-ruby/mimemagic', ref: '3543363026121ee28d98dfce4cb6366980c055ee'
+```
+
+original https://stackoverflow.com/questions/66785194/what-happened-to-mimemagic
+
+```
+gem 'mimemagic', github: 'mimemagicrb/mimemagic', ref: '3543363026121ee28d98dfce4cb6366980c055ee'
+```
+
+
+---------------------------------------------
+
+
 MimeMagic is a library to detect the mime type of a file by extension or by content. It uses the mime database
 provided by freedesktop.org (see http://freedesktop.org/wiki/Software/shared-mime-info/).
 
